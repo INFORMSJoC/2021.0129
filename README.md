@@ -41,7 +41,7 @@ This repository includes the source code and computational results for all the e
 2. The file [d_sample_set_seasonality.xlsx](data/Out_of_Sample_seasonality/d_sample_set_seasonality.xlsx) in folder **Out_of_Sample_seasonality** contains 100 sets of randomly generated demand samples with seasonal information. 
 3. The file [d_sample_set_nonseasonality.xlsx](data/Out_of_Sample_nonseasonality/d_sample_set_nonseasonality.xlsx) in folder **Out_of_Sample_nonseasonality** contains 100 sets of randomly generated deamand samples without seasonal information.
 4. The file [demand_observation_2019.xlsx](data/Real_Case_2019/demand_observation_2019.xlsx) contains the true observation of the demand in each quarter of 2019.
-5. The file [d_sample_set_phi_0.xlsx](data/Out_of_Sample_Robustness/d_sample_set_phi_0.xlsx),...,[d_sample_set_phi_5.xlsx](data/Out_of_Sample_Robustness/d_sample_set_phi_5.xlsx) are 100 sets of randomly generated demand samples with different proportion of the worst-case distribution $\phi\in\{0.0, 0.1, 0.3, 0.5\}$.
+5. In folder **Out_of_Sample_Robustness**, the file [d_sample_set_phi_0.xlsx](data/Out_of_Sample_Robustness/d_sample_set_phi_0.xlsx),...,[d_sample_set_phi_5.xlsx](data/Out_of_Sample_Robustness/d_sample_set_phi_5.xlsx) are 100 sets of randomly generated demand samples with different proportion of the worst-case distribution $$\phi\in\{0.0, 0.1, 0.3, 0.5\}$$.
 
 ### Script files 
 
