@@ -27,9 +27,13 @@ Below is the BibTex for citing this version of the code.
 }  
 ```
 
-## Description
+## Content
+This repository includes the source code and computational results for all randomly generated numerical instances presented in the paper.
 
-The goal of this software is to demonstrate the effect of cache optimization.
+## Requirements
+For these experiments, we use
+* Python (the codes are written in Python 3.8)
+* Gurobi 9.1.2
 
 ## Building
 
