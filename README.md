@@ -10,20 +10,20 @@ that were used in the research reported on in the paper "Robust Stochastic Facil
 
 ## Cite
 
-To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2019.0934) using its DOI and the software itself, using the following DOI.
+To cite this software, please cite this repository, using the following DOI.
 
 [![DOI](https://zenodo.org/badge/285853815.svg)](https://zenodo.org/badge/latestdoi/285853815)
 
 Below is the BibTex for citing this version of the code.
 
 ```
-@article{CacheTest,
-  author =        {T. Ralphs},
+@article{RSFL,
+  author =        {Tianqi Liu, Francisco Saldanha-da-Gama, Shuming Wang and Yuchen Mao},
   publisher =     {INFORMS Journal on Computing},
-  title =         {{CacheTest} Version v1.0},
-  year =          {2020},
-  doi =           {10.5281/zenodo.3977566},
-  url =           {https://github.com/INFORMSJoC/JoCTemplate},
+  title =         {Data for Robust Stochastic Facility Location: Sensitivity Analysis and Exact Solution},
+  year =          {2022},
+  doi =           {},
+  url =           {https://github.com/INFORMSJoC/2021.0129},
 }  
 ```
 
