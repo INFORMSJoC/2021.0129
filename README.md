@@ -10,7 +10,7 @@ that were used in the research reported on in the paper "Robust Stochastic Facil
 
 ## Cite
 
-To cite this software, please cite this repository, using the following DOI.
+To cite this material, please cite this repository, using the following DOI.
 
 [![DOI](https://zenodo.org/badge/285853815.svg)](https://zenodo.org/badge/latestdoi/285853815)
 
