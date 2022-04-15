@@ -27,17 +27,17 @@ Below is the BibTex for citing this version of the code.
 }  
 ```
 
-## Content
-This repository includes the source code and computational results for all the experiments presented in the paper.
-
 ## Requirements
 For these experiments, we use
 * Python (the codes are written in Python 3.8)
 * Gurobi 9.1.2
 
+## Content
+This repository includes the source code and computational results for all the experiments presented in the paper.
+
 ### Data files
 
-1. The file [Parameters.xslx](data/Solution_DRO_SDRO_SAA/Parameters.xlsx)
+1. In folder **Solution_DRO_SDRO_SAA**, the file [Parameters.xslx](data/Solution_DRO_SDRO_SAA/Parameters.xlsx) includes the fixed cost, capacity, transportation cost and penalty cost, which are used in the expertiments. Furthermore, the files [Parameters_DRO.xlsx](data/Parameters_DRO.xlsx), [Parameters_SAA](data/Parameters_SAA.xlsx) and [Parameters_SDRO](data/Parameters_SDRO.xlsx) include the parameters of the DRO model, SAA model and S-DRO model proposed in our paper, respectively.  
 
 ### Script files 
 
