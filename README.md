@@ -38,6 +38,9 @@ This repository includes the source code and computational results for all the e
 ### Data files
 
 1. In folder **Solution_DRO_SDRO_SAA**, the file [Parameters.xslx](data/Solution_DRO_SDRO_SAA/Parameters.xlsx) includes the fixed cost, capacity, transportation cost and penalty cost, which are used in the expertiments. Furthermore, the files [Parameters_DRO.xlsx](data/Parameters_DRO.xlsx), [Parameters_SAA](data/Parameters_SAA.xlsx) and [Parameters_SDRO](data/Parameters_SDRO.xlsx) include the parameters of the DRO model, SAA model and S-DRO model proposed in our paper, respectively.  
+2. The file [d_sample_set_seasonality.xlsx](data/Out_of_Sample_seasonality/d_sample_set_seasonality.xlsx) in folder **Out_of_Sample_seasonality** contains 100 sets of randomly generated demand samples with seasonal information. 
+3. The file [d_sample_set_nonseasonality.xlsx](data/Out_of_Sample_nonseasonality/d_sample_set_nonseasonality.xlsx) in folder **Out_of_Sample_nonseasonality** contains 100 sets of randomly generated deamand samples without seasonal information.
+4. The file [demand_observation_2019.xlsx](/data/Real_Case_2019/demand_observation_2019.xlsx) contains the 
 
 ### Script files 
 
