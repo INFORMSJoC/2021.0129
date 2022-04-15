@@ -37,9 +37,9 @@ For these experiments, we use
 
 ### Data files
 
-The data folders include ****
+1. The file [Parameters.xslx](data/Solution_DRO_SDRO_SAA/Parameters.xlsx)
 
-### Code files 
+### Script files 
 
 The code folders include **CoASLTP**, **CoPathsolver** and **Bargaining**.
 1. The code in the folder **CoASLTP** is for comparing the proposed interior-point difierentiable path-following method (**IPM**) and the **ASLTP**, where the file [ycsgse.m](CoASLTP/ycsgse.m) is the main program of the **IPM** and [dltpsgse.m](CoASLTP/dltpsgse.m) is the main program of the **ASLTP**. The code in this folder has been used in Section 4.1.
