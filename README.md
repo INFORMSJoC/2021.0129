@@ -2,40 +2,29 @@
 
 # Robust Stochastic Facility Location: Sensitivity Analysis and Exact Solution
 
-This archive is distributed in association with the [INFORMS Journal on
-Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
+This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
 
-The software and data in this repository are a snapshot of the software and data
-that were used in the research reported on in the paper "Robust Stochastic Facility Location: Sensitivity Analysis and Exact Solution" by T. Liu, F. Saldanha-da-Gama, S. Wang and Y. Mao. 
+The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper "Robust Stochastic Facility Location: Sensitivity Analysis and Exact Solution" by T. Liu, F. Saldanha-da-Gama, S. Wang and Y. Mao. 
+
 
 ## Cite
 
-To cite this material, please cite this repository, using the following DOI.
+The final version of this repository, with updated bibliographical information, is available at [GitHub](https://github.com/INFORMSJoC/2021-0129).
 
-[![DOI](https://zenodo.org/badge/285853815.svg)](https://zenodo.org/badge/latestdoi/285853815)
-
-Below is the BibTex for citing this version of the code.
-
-```
-@article{RSFL,
-  author =        {Tianqi Liu, Francisco Saldanha-da-Gama, Shuming Wang and Yuchen Mao},
-  publisher =     {INFORMS Journal on Computing},
-  title =         {Data for Robust Stochastic Facility Location: Sensitivity Analysis and Exact Solution},
-  year =          {2022},
-  doi =           {},
-  url =           {https://github.com/INFORMSJoC/2021.0129},
-}  
-```
 
 ## Requirements
+
 For these experiments, we use
 * Python (the codes are written in Python 3.8)
 * Gurobi 9.1.2
 
+
 ## Content
+
 This repository includes the source code and computational results for all the experiments presented in the paper.
 
 ### Data files
+
 The folder **data** contains all the parameters and samples used in our experiments.
 1. In the folder **Solution_DRO_SDRO_SAA**, the file [Parameters.xslx](data/Solution_DRO_SDRO_SAA/Parameters.xlsx) includes the fixed cost, capacity, transportation cost ,and penalty cost, which are used in the experiments of Section 6.1. Furthermore, the files [Parameters_DRO.xlsx](data/Parameters_DRO.xlsx), [Parameters_SAA](data/Parameters_SAA.xlsx) and [Parameters_SDRO](data/Parameters_SDRO.xlsx) include the parameters of the DRO model, SAA model and S-DRO model proposed in our paper, respectively.  
 2. The file [d_sample_set_seasonality.xlsx](data/Out_of_Sample_seasonality/d_sample_set_seasonality.xlsx) in the folder **Out_of_Sample_seasonality** contains 100 sets of randomly generated demand samples with seasonal information. 
@@ -75,5 +64,3 @@ out-of-sample shortage cost under three solutions. All the results in the folder
 ## Replicating
 
 To replicate the results in our paper, the users should put all the files under the same foldername in one folder and run the main programs which have been mentioned in the Content. For instance, to obtain the results in Table 1 and Table 2 (the file [Result_DRO_SDRO_SAA.xlsx](/results/Solution_DRO_SDRO_SAA/Result_DRO_SDRO_SAA.xlsx) in the folder **Solution_DRO_SDRO_SAA**), one should put the files [Parameters.xslx](data/Solution_DRO_SDRO_SAA/Parameters.xlsx), [Parameters_DRO.xlsx](data/Parameters_DRO.xlsx), [Parameters_SAA](data/Parameters_SAA.xlsx), [Parameters_SDRO](data/Parameters_SDRO.xlsx) and the files [Solution_DRO_SDRO_SAA.py](scripts/Solution_DRO_SDRO_SAA/Solution_DRO_SDRO_SAA.py), [Func_DRO_SDRO_SAA.py](scripts/Solution_DRO_SDRO_SAA/Func_DRO_SDRO_SAA.py) into the same folder, then run the main program [Solution_DRO_SDRO_SAA.py](scripts/Solution_DRO_SDRO_SAA/Solution_DRO_SDRO_SAA.py) in Python.       
-
-
