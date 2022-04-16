@@ -9,7 +9,7 @@ The software and data in this repository are a snapshot of the software and data
 
 ## Cite
 
-The final version of this repository, with updated bibliographical information, is available at [GitHub](https://github.com/INFORMSJoC/2021-0129).
+The final version of this repository, with updated bibliographical information, is available at [GitHub](https://github.com/INFORMSJoC/2021.0129).
 
 
 ## Requirements
