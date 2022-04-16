@@ -69,33 +69,11 @@ the DRO solution and that for the S-DRO solution, as well as the file [Diff_Ave_
 out-of-sample shortage cost under three solutions. All the results in the folder **Out_of_Sample_Robustness** have been shown in Figure 7.
 6. The file [Result_sensitivity_sigma.xlsx](results/Sensitivity_Analysis/Result_sensitivity_sigma.xlsx) in the folder **Sensitivity_Analysis** records the changes of worst-case expected transportation cost and its theoretical upper bounds in different states with respect to the perturbation of the ambiguity parameter \sigma_k, which has been plotted in Figure 8. Similarly, the files [Result_sensitivity_d_plus.xlsx](results/Sensitivity_Analysis/Result_sensitivity_d_plus.xlsx) and [Result_sensitivity_d_minus.xlsx](results/Sensitivity_Analysis/Result_sensitivity_d_minus.xlsx) include the changes of worst-case expected transportation cost and its theoretical upper bounds with respect to the ambiguity parameters d^+_k and d^-_k, which are respectively shown in Figure 9 and Table 3.
 7. The file [CPU_time_uncapacitated_problem.xlsx](results/CPU_Time_Uncapacitated_Problem/CPU_time_uncapacitated_problem.xlsx) in the folder **CPU_Time_Uncapacitated_Problem** records the computational time and expected total cost of the uncapacitated problem with different sizes of instances, which has been reported in Table 4.
-8. The files [Result_S_NBD_I_10_J_10_K_1.xlsx](results/Algorithm_Performance/Capacitated_I_10_J_10/Result_S_NBD_I_10_J_10_K_1.xlsx),...,[Result_S_NBD_I_20_J_50_K_5.xlsx](results/Algorithm_Performance/Capacitated_I_20_J_50/Result_S_NBD_I_20_J_50_K_5.xlsx) record the computational time and gap of each iteration of S-NBD algorithm for solving the capacitated problem with different instance sizes, which has been shown in Table 5. Furthermore, the files [Result_BD_I_10_J_10_K_1.xlsx](results/Algorithm_Performance/Capacitated_I_10_J_10/Result_BD_I_10_J_10_K_1.xlsx),...,[Result_BD_I_20_J_50_K_5.xlsx](results/Algorithm_Performance/Capacitated_I_20_J_50/Result_BD_I_20_J_50_K_5.xlsx) include the computational time and gap of the BD algorithm for solving the capacitated problem with different sizes of instance, which has also been recorded in Table 5.
-
-
-We finally illustrate how to implement the code and associate the code files with the numerical results (e.g., tables and figures) presented in the paper.
-1. By running the files [exm1.m](CoASLTP/exm1.m), [exm2.m](CoASLTP/exm2.m), [exm3.m](CoASLTP/exm3.m),  [exm4.m](CoASLTP/exm4.m), [exm5.m](CoASLTP/exm5.m) in the folder **CoASLTP**, one can obtain the computational results for the five fundamental examples in Section 4.1.
-5. By running the file [inputs225.m](CoASLTP/inputs225.m) in the folder **CoASLTP**, one can get a stationary equilibrium for a stochastic game with two players, two states and five actions for each player in each state. The computational costs of the **IPM** and **ASLTP** for solving this instance are obtained as well. By repeatedly running [inputs225.m](CoASLTP/inputs225.m) for ten times, one can obtain the average computational time for both methods, which is shown in the first row of Table 1. Through changing the parameters *n*; *d*; *m*; *pd0* in [inputs225.m](CoASLTP/inputs225.m), we can attain various instances. The average computational time of IPM for solving these stochastic games are shown in Table 1 and Table 3.
-6. By implementing the file  [se225.m](CoPathsolver/se225.m) in the folder **CoPathsolver**, one can get the comparison results between the proposed **IPM** and the **path solver** for computing a stationary equilibrium in a randomly generated stochastic game with two players, two states and five actions. Similarly, by changing the parameters *n*; *d*;*m*, we attain various stochastic games with difierent scales. The comparison results are included in Table 2. By running the file [r1.m](CoPathsolver/r1.m), one may obtain the success rates of the two methods for 100 randomly generated stochastic games, which are recorded in Figure 5.
-7. By implementing the file [bargaining.m](Bargaining/bargaining.m) in the folder **Bargaining**, one can get Figure 6, which shows a solution to the presented bargaining model.
+8. The files [Result_S_NBD_I_10_J_10_K_1.xlsx](results/Algorithm_Performance/Capacitated_I_10_J_10/Result_S_NBD_I_10_J_10_K_1.xlsx),...,[Result_S_NBD_I_20_J_50_K_5.xlsx](results/Algorithm_Performance/Capacitated_I_20_J_50/Result_S_NBD_I_20_J_50_K_5.xlsx) record the computational time and gap of each iteration of the S-NBD algorithm for solving the capacitated problem with different instance sizes, which has been shown in Table 5. Furthermore, the files [Result_BD_I_10_J_10_K_1.xlsx](results/Algorithm_Performance/Capacitated_I_10_J_10/Result_BD_I_10_J_10_K_1.xlsx),...,[Result_BD_I_20_J_50_K_5.xlsx](results/Algorithm_Performance/Capacitated_I_20_J_50/Result_BD_I_20_J_50_K_5.xlsx) include the computational time and gap of the BD algorithm for solving the capacitated problem with different sizes of instance, which has also been recorded in Table 5.
 
 
 ## Replicating
 
-To replicate the results in [Figure 1](results/mult-test), do either
+To replicate the results in our paper, the users should put all the files under the same foldername in one folder and run the main programs which has been mentioned in the Content. For instance, to obtian the Table 1 and Table 2 (the file [Result_DRO_SDRO_SAA.xlsx](/results/Solution_DRO_SDRO_SAA/Result_DRO_SDRO_SAA.xlsx) in the folder **Solution_DRO_SDRO_SAA**), one should put the files [Parameters.xslx](data/Solution_DRO_SDRO_SAA/Parameters.xlsx), [Parameters_DRO.xlsx](data/Parameters_DRO.xlsx), [Parameters_SAA](data/Parameters_SAA.xlsx), [Parameters_SDRO](data/Parameters_SDRO.xlsx) and the files [Solution_DRO_SDRO_SAA.py](scripts/Solution_DRO_SDRO_SAA/Solution_DRO_SDRO_SAA.py), [Func_DRO_SDRO_SAA.py](scripts/Solution_DRO_SDRO_SAA/Func_DRO_SDRO_SAA.py) into the same folder, then run the main program [Solution_DRO_SDRO_SAA.py](scripts/Solution_DRO_SDRO_SAA/Solution_DRO_SDRO_SAA.py) in Python.       
 
-```
-make mult-test
-```
-or
-```
-python test.py mult
-```
-To replicate the results in [Figure 2](results/sum-test), do either
 
-```
-make sum-test
-```
-or
-```
-python test.py sum
-```
