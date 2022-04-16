@@ -9,7 +9,22 @@ The software and data in this repository are a snapshot of the software and data
 
 ## Cite
 
-The final version of this repository, with updated bibliographical information, is available at [GitHub](https://github.com/INFORMSJoC/2021.0129).
+To cite this material, please cite this repository, using the following DOI.
+
+[![DOI](https://zenodo.org/badge/475945449.svg)](https://zenodo.org/badge/latestdoi/475945449)
+
+Below is the BibTex for citing this version of the code.
+
+```
+@article{RSFL,
+  author =        {Tianqi Liu, Francisco Saldanha-da-Gama, Shuming Wang and Yuchen Mao},
+  publisher =     {INFORMS Journal on Computing},
+  title =         {Data for Robust Stochastic Facility Location: Sensitivity Analysis and Exact Solution},
+  year =          {2022},
+  doi =           {10.5281/zenodo.6464912},
+  url =           {https://github.com/INFORMSJoC/2021.0129},
+}  
+```
 
 
 ## Requirements
