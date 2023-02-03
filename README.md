@@ -4,7 +4,7 @@
 
 This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
 
-The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper "Robust Stochastic Facility Location: Sensitivity Analysis and Exact Solution" by T. Liu, F. Saldanha-da-Gama, S. Wang and Y. Mao. 
+The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper "Robust Stochastic Facility Location: Sensitivity Analysis and Exact Solution"(https://pubsonline.informs.org/doi/10.1287/ijoc.2022.1206) by T. Liu, F. Saldanha-da-Gama, S. Wang and Y. Mao. 
 
 
 ## Cite
