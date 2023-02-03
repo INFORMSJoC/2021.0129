@@ -22,7 +22,7 @@ Below is the BibTex for citing this version of the code.
   title =         {Data for Robust Stochastic Facility Location: Sensitivity Analysis and Exact Solution},
   year =          {2022},
   doi =           {10.5281/zenodo.6464912},
-  url =           {https://github.com/INFORMSJoC/2021.0129},
+  url =           {https://github.com/INFORMSJoC/2022.1206},
 }  
 ```
 
